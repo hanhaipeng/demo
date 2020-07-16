@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "DevViewController.h"
+
 @interface ViewController ()
 
 @end
@@ -17,6 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    DevViewController *dev = [[DevViewController alloc] init];
+    [self presentViewController:dev animated:YES completion:nil];
 }
 
 
