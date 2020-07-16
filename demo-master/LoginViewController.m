@@ -7,7 +7,7 @@
 //
 
 #import "LoginViewController.h"
-
+#import "LoginView.h"
 @interface LoginViewController ()
 
 @end
@@ -16,7 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    LoginView *login = [[LoginView alloc] init];
+    
+    [self.view addSubview:login];
 }
 
 /*
