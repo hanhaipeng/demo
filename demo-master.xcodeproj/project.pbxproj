@@ -15,6 +15,7 @@
 		184AE93E24BFE1C700F44216 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184AE93C24BFE1C700F44216 /* LaunchScreen.storyboard */; };
 		184AE94124BFE1C700F44216 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184AE94024BFE1C700F44216 /* main.m */; };
 		18535B0124BFF2DC00AA328D /* DevViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18535B0024BFF2DC00AA328D /* DevViewController.m */; };
+		18535B0424BFF67200AA328D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18535B0324BFF67200AA328D /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		184AE94024BFE1C700F44216 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18535AFF24BFF2DC00AA328D /* DevViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DevViewController.h; sourceTree = "<group>"; };
 		18535B0024BFF2DC00AA328D /* DevViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DevViewController.m; sourceTree = "<group>"; };
+		18535B0224BFF67200AA328D /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		18535B0324BFF67200AA328D /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				184AE93524BFE1C500F44216 /* ViewController.m */,
 				18535AFF24BFF2DC00AA328D /* DevViewController.h */,
 				18535B0024BFF2DC00AA328D /* DevViewController.m */,
+				18535B0224BFF67200AA328D /* LoginViewController.h */,
+				18535B0324BFF67200AA328D /* LoginViewController.m */,
 				184AE93724BFE1C500F44216 /* Main.storyboard */,
 				184AE93A24BFE1C700F44216 /* Assets.xcassets */,
 				184AE93C24BFE1C700F44216 /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 			files = (
 				184AE93624BFE1C500F44216 /* ViewController.m in Sources */,
 				184AE93024BFE1C500F44216 /* AppDelegate.m in Sources */,
+				18535B0424BFF67200AA328D /* LoginViewController.m in Sources */,
 				18535B0124BFF2DC00AA328D /* DevViewController.m in Sources */,
 				184AE94124BFE1C700F44216 /* main.m in Sources */,
 				184AE93324BFE1C500F44216 /* SceneDelegate.m in Sources */,

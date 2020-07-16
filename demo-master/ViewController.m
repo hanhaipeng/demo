@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 #import "DevViewController.h"
+#import "LoginViewController.h"
 
 @interface ViewController ()
 
@@ -27,5 +28,10 @@
     [self presentViewController:dev animated:YES completion:nil];
 }
 
+-(void)actionAction{
+    LoginViewController *login = [[LoginViewController alloc] init];
+    
+    [self presentViewController:login animated:YES completion:nil];
+}
 
 @end
